@@ -1,3 +1,3 @@
-CANVAS_URL = 'https://canvas.uw.edu/'
+CANVAS_URL = 'your school url here'
 
-TOKEN = '10~0yeyhyOoFjiWQ3mQDt6wIPuFzSlxvzfycdYdItzg5TfyTn14BWwMsWNfLHFR3TPH'
+TOKEN = 'Your token here'
