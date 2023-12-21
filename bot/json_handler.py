@@ -2,7 +2,7 @@ import json
 
 
 class JsonHandler:
-    FILE_PATH = "you're directly to json file"
+    FILE_PATH = "your directly to json file"
 
     @staticmethod
     def read_json():
