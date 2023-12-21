@@ -9,7 +9,7 @@ from timezonefinder import TimezoneFinder
 
 
 def display_assignment_dues(hw_name, due_at):
-    user_timezone = get_user_timezone(47.7411, -120.7401)
+    user_timezone = get_user_timezone(47.7411, -120.7401) #your latitude and longitude.
     raw_due = datetime.strptime(due_at, "%Y-%m-%dT%H:%M:%SZ")
     due_local_time = raw_due.replace(tzinfo=pytz.utc).astimezone(user_timezone)
     formatted_due = format_datetime(due_local_time)
