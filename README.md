@@ -1,5 +1,4 @@
 # Pyvas
-<img src="imgs/pyvas.png" alt="Pyvas" style="width: 30%; height: auto;">
 <img src="imgs/pyvas_discord.png" alt="Pyvas" style="width: 30%; height: auto;">
 
 ## Table of Contents
