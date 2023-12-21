@@ -9,17 +9,17 @@ class ShowHelp(Command):
             "fields": [
                 {
                     "name": "`$substudent <user id>`",
-                    "value": "Subscribe your user id to pyvas. To get user id, see [here link for readme.md].\n",
+                    "value": "Subscribe your user id to pyvas. To get user id, see [here](https://github.com/MasumiYano/Pyvas-discord-bot#user-id).\n",
                     "inline": False
                 },
                 {
                     "name": "\n`$subcourse <course name> <course id>`",
-                    "value": "Subscribe to the course that you want to keep track of the assignments. `course name` can be anything. To get course id, see [here link for readme.md]\n",
+                    "value": "Subscribe to the course that you want to keep track of the assignments. `course name` can be anything. To get course id, see [here](https://github.com/MasumiYano/Pyvas-discord-bot#course-id)\n",
                     "inline": False
                 },
                 {
                     "name": "\n`$subhw <course name> <hw name> <hw id>`",
-                    "value": "Subscribe to the hw (Homework). The `hw name` can be anything. To get hw id, see [here link for readme.md].\n",
+                    "value": "Subscribe to the hw (Homework). The `hw name` can be anything. To get hw id, see [here](https://github.com/MasumiYano/Pyvas-discord-bot#how-to-get-assignment-id).\n",
                     "inline": False
                 },
                 {
