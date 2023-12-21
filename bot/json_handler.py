@@ -2,7 +2,7 @@ import json
 
 
 class JsonHandler:
-    FILE_PATH = "/Users/lukiee/Desktop/newDesktop/Coding/pyvas/student_info.json"
+    FILE_PATH = "you're directly to json file"
 
     @staticmethod
     def read_json():
