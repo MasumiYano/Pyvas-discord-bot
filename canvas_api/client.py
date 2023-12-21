@@ -1,6 +1,3 @@
-# TODO: Make a get_course_current function.
-# TODO: Make a README.md file.
-
 # Importing from config file
 from .config import CANVAS_URL, TOKEN
 
@@ -74,17 +71,6 @@ class CanvasAPIClient:
             except ZeroDivisionError:
                 return "Zero division error."
 
-    # # TODO: Send this to OpenAI API to summarize it!!!
-    # async def assignment_description(self):
-    #     endpoint = f'{CANVAS_URL}/api/v1/courses/{self.course_id}/assignments/{self.assignment_id}'
-    #     async with httpx.AsyncClient() as client:
-    #         response = await client.get(endpoint, headers=self.headers)
-    #
-    #         if not is_valid_response(response.status_code):
-    #             return get_error_code(response.status_code)
-    #
-    #         return response.json()['description']
-    #
     async def assignment_due_dates(self, course_name: str, hw_name: str):
         course_id = JsonHandler.get_course_id(user_id=self.user_id, course_name=course_name)
         assignment_id = JsonHandler.get_assignment_id(user_id=self.user_id, course_name=course_name,
@@ -99,6 +85,3 @@ class CanvasAPIClient:
                 return display_assignment_dues(name, due)
             else:
                 return get_error_code(response.status_code)
-
-    async def get_course_current(self):
-        return 'yay'
