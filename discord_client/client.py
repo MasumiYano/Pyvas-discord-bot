@@ -1,12 +1,9 @@
-# from config import TOKEN
 import discord
 from .handlers import handle_message
 
 
 async def send_message(message, user_message, is_private, user_id):
     try:
-        # response = await handle_message(message, user_message)
-        # await message.author.send(response) if is_private else await message.channel.send(response)
         response = await handle_message(message, user_message, user_id)
 
         if isinstance(response, dict) and 'title' in response:
