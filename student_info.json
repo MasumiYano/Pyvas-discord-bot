@@ -1,0 +1,11 @@
+{
+  "student id": {
+    "disc id": "here some disc id",
+    "course name": {
+      "course id": "the course id.",
+      "assignment": {
+        "assignment name": "some id for assignment"
+      }
+    }
+  }
+}
