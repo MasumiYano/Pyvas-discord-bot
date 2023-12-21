@@ -1,4 +1,5 @@
 # Pyvas
+<img src="imgs/pyvas.png" alt="Pyvas" style="width: 50%; height: auto;">
 
 ## Table of Contents
 - [Overview](#overview)
