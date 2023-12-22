@@ -10,6 +10,7 @@
 - [How to Get User-ID](#user-id)
 - [How to Get Course-ID](#course-id)
 - [How to Get Assignment-ID](#assignment-id)
+- [License](#license)
 
 ## Overview
 <a name="overview"></a>
@@ -85,3 +86,7 @@ much, but you're more than welcome to request as well💯
 <img src="imgs/assignment_step_1.png" alt="Assignment id step 1">
 4. The URL is now should be changed. The last numbers in the URL is the assignment id. Copy it.
 <img src="imgs/assignment_id_step2.png" alt="Assignment id step 2">
+
+## License 
+<a name="license"></a>
+MIT License obtained. 
